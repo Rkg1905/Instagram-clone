@@ -10,6 +10,7 @@ Instagam clone web application using MERN
 This repository is still under development and I will continue to add more features to it.
 
 [![click here to use this instagram clone]](https://instagram-clone1905-2.herokuapp.com/)
+![gif](Instagram-clone-full.gif)
 
 ## Features
 
