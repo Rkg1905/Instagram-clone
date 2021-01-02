@@ -61,9 +61,30 @@ a{
 }
 
 .postProfile{
-  margin-top: 2px !important;
+  margin-top: 0px !important;
 }
 
 .collection-item{
   width: 100% !important;
+}
+
+.PostBar{
+  display: flex;
+}
+.ProfileIcon{
+  width:100%;
+  border-radius: 50%;
+  border-color: rgb(119, 118, 118);
+  border-style: groove;
+  border-width: 1.5px;
+}
+.UserPic{
+  /* width: 20px !important; */
+  width: 35px;
+  
+}
+.UserName{
+  width: 90%;
+  text-align: left;
+  padding:0px 2px 2px 10px!important;
 }

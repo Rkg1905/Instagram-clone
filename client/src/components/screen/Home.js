@@ -115,9 +115,12 @@ const Home=()=>{
                     return(
                         <div className="card home-card" key={item._id} style={{padding:"6px"}}>
                             
-                            <h5 className="postProfile"> <Link to={ item.postedBy._id!==state._id?"/profile/"+item.postedBy._id : "/profile"}>{item.postedBy.name} </Link>{item.postedBy._id==state._id
+                            <div className="PostBar"> <div className="UserPic"><Link to={ item.postedBy._id!==state._id?"/profile/"+item.postedBy._id : "/profile"}><img className="ProfileIcon" alt="profilePic" src={item.postedBy.pic} /></Link></div>
+                            <div className="UserName"><Link to={ item.postedBy._id!==state._id?"/profile/"+item.postedBy._id : "/profile"}><h6 >{item.postedBy.name} </h6></Link></div>
+                            <div >{item.postedBy._id==state._id
                             && <i className="material-icons" style={{float:"right"}} 
-                            onClick={()=>deletePost(item._id)}>delete</i>}</h5>
+                            onClick={()=>deletePost(item._id)}>delete</i>}</div>
+                            </div>
                             <div className="card-image">
                                 <img alt="photo" src={item.photo} />
                             </div>
