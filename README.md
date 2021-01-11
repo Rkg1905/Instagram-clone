@@ -16,7 +16,7 @@ This repository is still under development and I will continue to add more featu
 2. forgot password
 3. can watch others profile
 4. create post
-5  comment, like, dislike on post
+5. comment, like, dislike on post
 6. search users using user id
 7. subscribe and unsubscribe users
 8. can delete own post from home
