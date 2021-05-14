@@ -137,3 +137,5 @@ router.post('/new-password',(req,res)=>{
 module.exports = router
 
 // experimenting with git
+//experiment with git 14/05/2021
+//1. branch merge type 1
