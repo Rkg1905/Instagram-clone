@@ -141,3 +141,4 @@ module.exports = router
 //1. branch merge type 1
 //2. branch merge type 2
 //2. branch merge type 2
+//3. branch merge type 3
