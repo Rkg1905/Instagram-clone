@@ -143,3 +143,5 @@ module.exports = router
 //2. branch merge type 2
 //3. branch merge type 3
 //4. test with M:B:4
+//4. test with M:B:5
+// point to be noted
